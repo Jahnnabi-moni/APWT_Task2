@@ -25,6 +25,6 @@ class ContactController extends Controller
                 'name.min'=>'Name should be more than 5 charcters'
             ]
             );
-        return "<h1>Your Contact Request</h1> <br>Name: ".$request->name."<br>Email: ".$request->email."<br>Phone: ".$request->phone."<br>Message: ".$request->message;      
+        return "<h1>Contact Page</h1> <br>Name: ".$request->name."<br>Email: ".$request->email."<br>Phone: ".$request->phone."<br>Message: ".$request->message;      
     }
 }
